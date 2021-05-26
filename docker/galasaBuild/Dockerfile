@@ -3,7 +3,7 @@ FROM nexus.cics-ts.hur.hdclab.intranet.ibm.com:8080/library/ubuntu:latest
 RUN apt-get update && apt-get install -y unzip \
     curl \
     openjdk-11-jdk \
-    maven
+    maven \
     git
 
 # Installing 6.8.2 version of gradle
